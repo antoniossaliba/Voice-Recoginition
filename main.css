@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2d3a4b;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px #b0c4de;
+}
+
+.output {
+    text-align: center;
+    margin: 40px auto 0 auto;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #222;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+    padding: 30px 40px;
+    max-width: 700px;
+    min-height: 60px;
+    transition: box-shadow 0.2s;
+}
+
+button {
+    display: inline-block;
+    margin: 30px 10px 0 10px;
+    padding: 16px 38px;
+    font-size: 22px;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #4f8cff 0%, #38e2ff 100%);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.12);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:hover, button:focus {
+    background: linear-gradient(90deg, #38e2ff 0%, #4f8cff 100%);
+    transform: translateY(-2px) scale(1.04);
+    outline: none;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
